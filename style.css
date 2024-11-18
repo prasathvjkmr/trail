@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* (001) */
+h1 {
+    color: green;
+}
+
+
+/* (010) */
+.head {
+    color: violet;
+}
+
+/* (100) */
+#heading {
+    color: orange;
+}
+
+.myhead.head#myCustom {
+    color: orangered;
+}
+
+
+a:link {
+    color: rgb(231, 27, 194);
+}
+
+a:visited {
+    color: rgb(255, 251, 0);
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+p {
+    /* background-color:lightblue;
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* shorthand */
+    /* background: lightcoral url("https://picsum.photos/200/300") no-repeat center; */
+    /* shorthand */
+    /* background-position: 100px  200px; */
+    /* background: ; */
+    /* background-image: url("https://picsum.photos/200/300"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+}
+
+tr,
+td {
+    /* border-width: 2px;
+    border-style: double;
+    border-color: red; */
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    padding: 0.5rem 1rem;
+}
+
+table {
+    border: 1px solid black;
+}
+
+h1{
+    margin: 1rem 0 2rem 3rem ;
+    border: 1px solid red;
+    padding: 1rem;
+}
